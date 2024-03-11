@@ -1,0 +1,7 @@
+# pycodestyle optparse.py
+# autopep8 --in-place optparse.py 
+--(The --aggressive flag will perform more substantial changes 
+and can be applied multiple times for greater effect)
+# black optparse.py
+
+# pytest - command for functional test
