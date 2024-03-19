@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/157f03904e914822ac1d07effd686559/artifacts
+end_time: 1710800018212
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: 157f03904e914822ac1d07effd686559
+run_name: receptive-quail-18
+run_uuid: 157f03904e914822ac1d07effd686559
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710800002670
+status: 3
+tags: []
+user_id: saikiran

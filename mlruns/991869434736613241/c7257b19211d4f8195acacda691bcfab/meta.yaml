@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/991869434736613241/c7257b19211d4f8195acacda691bcfab/artifacts
+end_time: 1710798489310
+entry_point_name: ''
+experiment_id: '991869434736613241'
+lifecycle_stage: active
+run_id: c7257b19211d4f8195acacda691bcfab
+run_name: popular-lark-620
+run_uuid: c7257b19211d4f8195acacda691bcfab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710798488100
+status: 3
+tags: []
+user_id: saikiran

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/983633963726086629/95fdfbfbd9d04119bd11187931694c3f/artifacts
+end_time: 1710798543099
+entry_point_name: ''
+experiment_id: '983633963726086629'
+lifecycle_stage: active
+run_id: 95fdfbfbd9d04119bd11187931694c3f
+run_name: agreeable-perch-60
+run_uuid: 95fdfbfbd9d04119bd11187931694c3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710798539030
+status: 3
+tags: []
+user_id: saikiran

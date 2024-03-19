@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/1e5518b44505490cb4cdb8e5f788ca72/artifacts
+end_time: 1710800697398
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: 1e5518b44505490cb4cdb8e5f788ca72
+run_name: masked-asp-31
+run_uuid: 1e5518b44505490cb4cdb8e5f788ca72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710800670026
+status: 3
+tags: []
+user_id: saikiran

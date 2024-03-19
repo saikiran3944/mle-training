@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/983633963726086629/67242908c06d45ef86d1a72014b84781/artifacts
+end_time: 1710798567250
+entry_point_name: ''
+experiment_id: '983633963726086629'
+lifecycle_stage: active
+run_id: 67242908c06d45ef86d1a72014b84781
+run_name: dazzling-elk-832
+run_uuid: 67242908c06d45ef86d1a72014b84781
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710798558821
+status: 3
+tags: []
+user_id: saikiran

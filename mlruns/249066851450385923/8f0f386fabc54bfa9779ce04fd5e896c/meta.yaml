@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/8f0f386fabc54bfa9779ce04fd5e896c/artifacts
+end_time: 1710799947900
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: 8f0f386fabc54bfa9779ce04fd5e896c
+run_name: salty-pug-327
+run_uuid: 8f0f386fabc54bfa9779ce04fd5e896c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710799933487
+status: 3
+tags: []
+user_id: saikiran

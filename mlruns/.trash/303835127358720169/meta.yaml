@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/303835127358720169
+creation_time: 1710796335878
+experiment_id: '303835127358720169'
+last_update_time: 1710796397824
+lifecycle_stage: deleted
+name: Housing_Price_Linear_Regression_Parent_Child
+tags: {}

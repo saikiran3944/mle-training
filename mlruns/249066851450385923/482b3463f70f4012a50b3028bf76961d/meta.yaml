@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/482b3463f70f4012a50b3028bf76961d/artifacts
+end_time: 1710800812552
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: 482b3463f70f4012a50b3028bf76961d
+run_name: defiant-sow-673
+run_uuid: 482b3463f70f4012a50b3028bf76961d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710800782752
+status: 3
+tags: []
+user_id: saikiran

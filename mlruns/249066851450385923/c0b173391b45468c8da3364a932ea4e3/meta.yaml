@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/c0b173391b45468c8da3364a932ea4e3/artifacts
+end_time: 1710800368548
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: c0b173391b45468c8da3364a932ea4e3
+run_name: funny-smelt-292
+run_uuid: c0b173391b45468c8da3364a932ea4e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710800343261
+status: 3
+tags: []
+user_id: saikiran

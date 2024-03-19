@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/6f6ab269f1204e81918ffda58cb7ac8a/artifacts
+end_time: 1710801099215
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: 6f6ab269f1204e81918ffda58cb7ac8a
+run_name: crawling-mare-428
+run_uuid: 6f6ab269f1204e81918ffda58cb7ac8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710801071022
+status: 3
+tags: []
+user_id: saikiran

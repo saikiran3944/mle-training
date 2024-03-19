@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/983633963726086629/5aa316fa80ee4a2396713c064490e137/artifacts
+end_time: 1710798558803
+entry_point_name: ''
+experiment_id: '983633963726086629'
+lifecycle_stage: active
+run_id: 5aa316fa80ee4a2396713c064490e137
+run_name: intelligent-doe-838
+run_uuid: 5aa316fa80ee4a2396713c064490e137
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710798552329
+status: 3
+tags: []
+user_id: saikiran

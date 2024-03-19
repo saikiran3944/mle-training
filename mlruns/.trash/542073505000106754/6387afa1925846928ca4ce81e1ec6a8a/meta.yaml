@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/542073505000106754/6387afa1925846928ca4ce81e1ec6a8a/artifacts
+deleted_time: 1710796927077
+end_time: 1710796529406
+entry_point_name: ''
+experiment_id: '542073505000106754'
+lifecycle_stage: deleted
+run_id: 6387afa1925846928ca4ce81e1ec6a8a
+run_name: MODELLING
+run_uuid: 6387afa1925846928ca4ce81e1ec6a8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710796527631
+status: 3
+tags: []
+user_id: saikiran

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/bbf3614e9aaf4dce964b76450351330a/artifacts
+end_time: 1710801132970
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: bbf3614e9aaf4dce964b76450351330a
+run_name: fortunate-owl-202
+run_uuid: bbf3614e9aaf4dce964b76450351330a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710801099221
+status: 3
+tags: []
+user_id: saikiran
