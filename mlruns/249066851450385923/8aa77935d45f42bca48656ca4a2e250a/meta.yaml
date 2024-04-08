@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/8aa77935d45f42bca48656ca4a2e250a/artifacts
+end_time: 1710801071016
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: 8aa77935d45f42bca48656ca4a2e250a
+run_name: bemused-sow-797
+run_uuid: 8aa77935d45f42bca48656ca4a2e250a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710801040780
+status: 3
+tags: []
+user_id: saikiran

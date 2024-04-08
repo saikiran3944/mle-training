@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/846532664682900716
+creation_time: 1710797656393
+experiment_id: '846532664682900716'
+last_update_time: 1710797656393
+lifecycle_stage: active
+name: Housing_Price_Linear_Regression

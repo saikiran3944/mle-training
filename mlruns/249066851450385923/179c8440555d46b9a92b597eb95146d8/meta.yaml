@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/179c8440555d46b9a92b597eb95146d8/artifacts
+end_time: 1710800034582
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: 179c8440555d46b9a92b597eb95146d8
+run_name: angry-gnu-285
+run_uuid: 179c8440555d46b9a92b597eb95146d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710800018223
+status: 3
+tags: []
+user_id: saikiran

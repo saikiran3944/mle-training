@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/eac95c0545d24eb3885a107a3e146d53/artifacts
+end_time: 1710799989144
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: eac95c0545d24eb3885a107a3e146d53
+run_name: righteous-shrew-272
+run_uuid: eac95c0545d24eb3885a107a3e146d53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710799975741
+status: 3
+tags: []
+user_id: saikiran

@@ -1,0 +1,15 @@
+artifact_uri: /home/saikiran/mle-training/mlruns/0/d3a62e730ac643b786b8345c5eef1680/artifacts
+end_time: 1710796932051
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3a62e730ac643b786b8345c5eef1680
+run_name: MODELLING
+run_uuid: d3a62e730ac643b786b8345c5eef1680
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710796930169
+status: 3
+tags: []
+user_id: saikiran

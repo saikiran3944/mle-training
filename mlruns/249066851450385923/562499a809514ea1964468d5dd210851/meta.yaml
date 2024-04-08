@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/562499a809514ea1964468d5dd210851/artifacts
+end_time: 1710801222811
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: 562499a809514ea1964468d5dd210851
+run_name: skillful-toad-124
+run_uuid: 562499a809514ea1964468d5dd210851
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710801191615
+status: 3
+tags: []
+user_id: saikiran

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/b8cbbb40387241109b2f410b8d187946/artifacts
+end_time: 1710800319020
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: b8cbbb40387241109b2f410b8d187946
+run_name: receptive-cub-218
+run_uuid: b8cbbb40387241109b2f410b8d187946
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710800293791
+status: 3
+tags: []
+user_id: saikiran

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/983633963726086629/21b33277003248ef85bd57c92f3b9643/artifacts
+end_time: 1710798585432
+entry_point_name: ''
+experiment_id: '983633963726086629'
+lifecycle_stage: active
+run_id: 21b33277003248ef85bd57c92f3b9643
+run_name: capable-hound-806
+run_uuid: 21b33277003248ef85bd57c92f3b9643
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710798583008
+status: 3
+tags: []
+user_id: saikiran

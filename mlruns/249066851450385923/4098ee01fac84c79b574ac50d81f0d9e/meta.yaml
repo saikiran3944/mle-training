@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/4098ee01fac84c79b574ac50d81f0d9e/artifacts
+end_time: 1710800392855
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: 4098ee01fac84c79b574ac50d81f0d9e
+run_name: whimsical-bat-370
+run_uuid: 4098ee01fac84c79b574ac50d81f0d9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710800368554
+status: 3
+tags: []
+user_id: saikiran

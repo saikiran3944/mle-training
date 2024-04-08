@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/217682766911627629/7b5a9d798d3546b9af933c4021155029/artifacts
+end_time: 1710798327983
+entry_point_name: ''
+experiment_id: '217682766911627629'
+lifecycle_stage: active
+run_id: 7b5a9d798d3546b9af933c4021155029
+run_name: receptive-finch-800
+run_uuid: 7b5a9d798d3546b9af933c4021155029
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710798325403
+status: 3
+tags: []
+user_id: saikiran

@@ -1,0 +1,15 @@
+artifact_uri: /home/saikiran/mle-training/mlruns/0/aa0196ca41044de1b4d046638500d234/artifacts
+end_time: 1710797658743
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa0196ca41044de1b4d046638500d234
+run_name: CHILD_RUN
+run_uuid: aa0196ca41044de1b4d046638500d234
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710797658722
+status: 3
+tags: []
+user_id: saikiran

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/c34b831c1c5141b6a6a63c515ef863e5/artifacts
+end_time: 1710800109705
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: c34b831c1c5141b6a6a63c515ef863e5
+run_name: mercurial-goat-526
+run_uuid: c34b831c1c5141b6a6a63c515ef863e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710800084895
+status: 3
+tags: []
+user_id: saikiran

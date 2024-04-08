@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/983633963726086629/32ac301bc1ae4ce78a10886436365f07/artifacts
+end_time: 1710798547586
+entry_point_name: ''
+experiment_id: '983633963726086629'
+lifecycle_stage: active
+run_id: 32ac301bc1ae4ce78a10886436365f07
+run_name: bright-stoat-931
+run_uuid: 32ac301bc1ae4ce78a10886436365f07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710798543109
+status: 3
+tags: []
+user_id: saikiran

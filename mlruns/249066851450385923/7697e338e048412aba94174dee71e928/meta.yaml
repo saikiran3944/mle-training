@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/7697e338e048412aba94174dee71e928/artifacts
+end_time: 1710800842847
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: 7697e338e048412aba94174dee71e928
+run_name: abundant-seal-975
+run_uuid: 7697e338e048412aba94174dee71e928
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710800812560
+status: 3
+tags: []
+user_id: saikiran

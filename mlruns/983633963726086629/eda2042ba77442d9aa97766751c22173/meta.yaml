@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/983633963726086629/eda2042ba77442d9aa97766751c22173/artifacts
+end_time: 1710798582993
+entry_point_name: ''
+experiment_id: '983633963726086629'
+lifecycle_stage: active
+run_id: eda2042ba77442d9aa97766751c22173
+run_name: agreeable-toad-638
+run_uuid: eda2042ba77442d9aa97766751c22173
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710798580113
+status: 3
+tags: []
+user_id: saikiran

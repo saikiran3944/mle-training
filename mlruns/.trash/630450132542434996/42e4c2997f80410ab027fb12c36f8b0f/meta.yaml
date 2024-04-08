@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/630450132542434996/42e4c2997f80410ab027fb12c36f8b0f/artifacts
+deleted_time: 1710796514752
+end_time: 1710796410947
+entry_point_name: ''
+experiment_id: '630450132542434996'
+lifecycle_stage: deleted
+run_id: 42e4c2997f80410ab027fb12c36f8b0f
+run_name: Linear_Regression_PR
+run_uuid: 42e4c2997f80410ab027fb12c36f8b0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710796407281
+status: 4
+tags: []
+user_id: saikiran

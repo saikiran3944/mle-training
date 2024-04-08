@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/8efa36ae40c7492daaf3f6dd90651c52/artifacts
+end_time: 1710800234907
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: 8efa36ae40c7492daaf3f6dd90651c52
+run_name: ambitious-loon-705
+run_uuid: 8efa36ae40c7492daaf3f6dd90651c52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710800209312
+status: 3
+tags: []
+user_id: saikiran

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/983633963726086629/55a26e0741794f8e82721e105c49b517/artifacts
+end_time: 1710798588654
+entry_point_name: ''
+experiment_id: '983633963726086629'
+lifecycle_stage: active
+run_id: 55a26e0741794f8e82721e105c49b517
+run_name: gaudy-mare-599
+run_uuid: 55a26e0741794f8e82721e105c49b517
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710798585445
+status: 3
+tags: []
+user_id: saikiran

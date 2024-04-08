@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/983633963726086629/ac4017c44bc34edab9122245bb0469b3/artifacts
+end_time: 1710798577526
+entry_point_name: ''
+experiment_id: '983633963726086629'
+lifecycle_stage: active
+run_id: ac4017c44bc34edab9122245bb0469b3
+run_name: bittersweet-gnu-181
+run_uuid: ac4017c44bc34edab9122245bb0469b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710798567261
+status: 3
+tags: []
+user_id: saikiran

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/983633963726086629/e898bf927a204b868d186762dfaeeb90/artifacts
+end_time: 1710798530281
+entry_point_name: ''
+experiment_id: '983633963726086629'
+lifecycle_stage: active
+run_id: e898bf927a204b868d186762dfaeeb90
+run_name: loud-fly-913
+run_uuid: e898bf927a204b868d186762dfaeeb90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710798528069
+status: 3
+tags: []
+user_id: saikiran

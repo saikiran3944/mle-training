@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/983633963726086629/e5340f105da043acba1153da29b11c52/artifacts
+end_time: 1710798532646
+entry_point_name: ''
+experiment_id: '983633963726086629'
+lifecycle_stage: active
+run_id: e5340f105da043acba1153da29b11c52
+run_name: smiling-stork-209
+run_uuid: e5340f105da043acba1153da29b11c52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710798530296
+status: 3
+tags: []
+user_id: saikiran

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/f8bf34bc5a5445c5b4aeef9b6fd255a8/artifacts
+end_time: 1710800614380
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: f8bf34bc5a5445c5b4aeef9b6fd255a8
+run_name: placid-penguin-540
+run_uuid: f8bf34bc5a5445c5b4aeef9b6fd255a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710800589802
+status: 3
+tags: []
+user_id: saikiran

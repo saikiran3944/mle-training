@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/249066851450385923/508a267f20284c86bf49c22a7f60e930/artifacts
+end_time: 1710800160441
+entry_point_name: ''
+experiment_id: '249066851450385923'
+lifecycle_stage: active
+run_id: 508a267f20284c86bf49c22a7f60e930
+run_name: auspicious-tern-591
+run_uuid: 508a267f20284c86bf49c22a7f60e930
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710800135376
+status: 3
+tags: []
+user_id: saikiran
