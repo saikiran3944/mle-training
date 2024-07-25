@@ -1,65 +1,64 @@
-"""Model Scoring."""
-
 import argparse
-import os
+import configparser
 import pickle
 
 import numpy as np
 import pandas as pd
-from sklearn.metrics import mean_absolute_error, mean_squared_error
+from sklearn.metrics import mean_squared_error
 
-from .logs import logger
-
-parser = argparse.ArgumentParser()
-
-parser.add_argument(
-    "DATA_PATH",
-    help="Path for input dataset",
-    default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"),
-)
-parser.add_argument(
-    "MODEL_PATH",
-    help="Path to save model files",
-    default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "model"),
-)
-args = parser.parse_args()
-DATA_PATH = args.DATA_PATH
-MODEL_PATH = args.MODEL_PATH
+from logger import Logger
 
 
-def load_housing_data_processed(data_path=DATA_PATH):
-    """Read Housing data and return dataframe."""
-    train_path = os.path.join(data_path, "train_processed.csv")
-    valid_path = os.path.join(data_path, "valid_processed.csv")
-    logger.info(f"Reading processed data for results validation")
-    return pd.read_csv(train_path), pd.read_csv(valid_path)
+def main(data_path, model_path):
+    X_test_prepared = pd.read_csv(data_path + "\\housing_test_processed.csv")
+    y_test = pd.read_csv(data_path + "\\housinglabel_test_processed.csv")
+    lg = Logger(
+        "../logs/score.log",
+        "file reaad successfully from {}".format(data_path),
+        "w",
+    )
+    lg.logging()
+    final_model = pickle.load(open(model_path + "/lin_reg.pkl", "rb"))
+    lg = Logger(
+        "../logs/score.log",
+        "lin_reg.pkl model loaded successfully from {}".format(model_path),
+        "a",
+    )
+    lg.logging()
+    final_predictions = final_model.predict(X_test_prepared)
+    final_mse = mean_squared_error(y_test, final_predictions)
+    final_rmse = np.sqrt(final_mse)
+    lg = Logger(
+        "../logs/scores.log",
+        "prediction-done! \n final_mse:{}, final_rmse:{}".format(final_mse, final_rmse),
+        "w",
+    )
+    lg.logging()
+    print(final_mse, final_rmse)
+    print("check logs @ ", lg.filename)
 
 
-train_set, test_set = load_housing_data_processed(DATA_PATH)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "test_data_path",
+        type=str,
+        help="description of arg1",
+        nargs="?",
+        default="",
+    )
+    parser.add_argument(
+        "stored_model_path",
+        type=str,
+        help="description of arg2",
+        nargs="?",
+        default="",
+    )
+    args = parser.parse_args()
 
-with open(os.path.join(MODEL_PATH, "linear_model.pkl"), "rb") as file:
-    lin_reg = pickle.load(file)
+    config = configparser.ConfigParser()
+    config.read("../setup.cfg")
 
-X_train = train_set.drop("median_house_value", axis=1)
-y_train = train_set["median_house_value"].copy()
-
-X_test = test_set.drop("median_house_value", axis=1)
-y_test = test_set["median_house_value"].copy()
-
-
-housing_predictions = lin_reg.predict(X_train)
-lin_mse = mean_squared_error(y_train, housing_predictions)
-lin_rmse = np.sqrt(lin_mse)
-lin_rmse
-
-lin_mae = mean_absolute_error(y_train, housing_predictions)
-lin_mae
-
-final_predictions = lin_reg.predict(X_test)
-final_mse = mean_squared_error(y_test, final_predictions)
-final_rmse = np.sqrt(final_mse)
-
-final_mae = mean_absolute_error(y_test, final_predictions)
-final_mae
-
-logger.info(f"Done.")
+    arg1 = args.test_data_path or config["DEFAULT"]["test_data_path"]
+    arg2 = args.stored_model_path or config["DEFAULT"]["stored_model_path"]
+    main(arg1, arg2)

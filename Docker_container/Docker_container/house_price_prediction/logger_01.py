@@ -1,8 +1,7 @@
+import os
 import logging
 import logging.config
-import os
 
-from logging_tree import printout
 
 # Logging Config
 # More on Logging Configuration
@@ -18,11 +17,13 @@ LOGGING_DEFAULT_CONFIG = {
         },
         "simple": {"format": "%(message)s"},
     },
-    "root": {"level": "DEBUG"},
+    "root": {"level": "INFO"},
 }
 
 
-def configure_logger(logger=None, cfg=None, log_file=None, console=True, log_level="DEBUG"):
+def configure_logger(
+    logger=None, cfg=None, log_file=None, console=True, log_level="DEBUG"
+):
     """Function to setup configurations of logger through function.
 
     The individual arguments of `log_file`, `console`, `log_level` will overwrite the ones in cfg.
@@ -69,7 +70,14 @@ def configure_logger(logger=None, cfg=None, log_file=None, console=True, log_lev
     return logger
 
 
-logger = configure_logger()
-
-# printing out the current loging confiurations being used
-printout()
+if __name__ == "__main__":
+    # configuring and assigning in the logger can be done by the below function
+    logger = configure_logger(
+        log_file=os.path.join(
+            r"C:\Users\vparul\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\rushikesh\assignment__1_2\mle-training\logs\logging_files",
+            "custom_config.log",
+        )
+    )
+    logger.info(f"Logging Test - Start")
+    logger.info(f"Logging Test - Test 1 Done")
+    logger.warning("Watch out!")
