@@ -74,7 +74,7 @@ if __name__ == "__main__":
     # configuring and assigning in the logger can be done by the below function
     logger = configure_logger(
         log_file=os.path.join(
-            r"C:\Users\vparul\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\rushikesh\assignment__1_2\mle-training\logs\logging_files",
+            r"C:\Users\saikiran.badugu\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\rushikesh\assignment__1_2\mle-training\logs\logging_files",
             "custom_config.log",
         )
     )
